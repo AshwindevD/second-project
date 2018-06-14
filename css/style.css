@@ -1,3 +1,7 @@
+body{
+	font-family: 'Roboto', sans-serif;
+
+}
 .list ul{
 	list-style-type: none;
     margin: 0;
@@ -18,6 +22,7 @@
 .first{
 	overflow: hidden;
     background-color: green;
+
 	
 }
 
@@ -28,28 +33,32 @@
 	height: 40%;
 	float: left; 
 	margin-top: 15px;
-	margin-left: 50px;
+	margin-left: 85px;
+	color: white;
 
 } 
 .head h1 {
 	
 	text-align: center;
-	font-size: 
+	
+	
 
 }
 .head p{
 	text-align: justify;
 	margin-top: 15px;
+	margin-left: 29px;
 
 
 }
 img{
-	width: 30%;
+	width: 20%;
 	height: 15%;
 	float: left;
-	margin-left: 90px;
+	margin-left: 98px;
 	margin-top: 20px;
 	padding-bottom:10px;
+
 }
 .second{
 	background-color: grey;
@@ -67,7 +76,7 @@ img{
 
 }
 .third{
-	margin-left: 10px;
+	margin-left: 50px;
 
 }
 .about{
@@ -161,9 +170,56 @@ img{
 	margin-left: 25%;
 
 }
+footer{
+	float: left;
+	background-color: black;
+	color: white;
+	overflow: hidden;
+	height: 200px;
+}
 .contact{
 	float: left;
+	width: 25%;
+
+
 }
 .service{
 	float: left;
+	width: 25%;
+}
+.info{
+	float: left;
+	width: 25%;
+	}
+.info2{
+	float: left;
+	width: 25%;
+}
+.foot1{
+	overflow: hidden;
+}
+.horrizontal{
+	float: left;
+	width: 100%;
+/*	display: block;*/
+    border-bottom:1px solid white;
+    padding: 15px;
+/*    margin-top: 20px;*/
+}
+
+
+
+.foot2{
+	display: block;
+}
+.left{
+	float: left;
+	color: grey;
+
+
+}
+.right{
+	float: right;
+	color: green;
+	
 }
