@@ -1,0 +1,169 @@
+.list ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+
+}
+.list li {
+	  display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    float: right;
+
+}
+.first{
+	overflow: hidden;
+    background-color: green;
+	
+}
+
+
+
+.head{
+	width: 50%;
+	height: 40%;
+	float: left; 
+	margin-top: 15px;
+	margin-left: 50px;
+
+} 
+.head h1 {
+	
+	text-align: center;
+	font-size: 
+
+}
+.head p{
+	text-align: justify;
+	margin-top: 15px;
+
+
+}
+img{
+	width: 30%;
+	height: 15%;
+	float: left;
+	margin-left: 90px;
+	margin-top: 20px;
+	padding-bottom:10px;
+}
+.second{
+	background-color: grey;
+	padding: 15px;
+
+
+
+}
+.second p{
+	float: left;
+	margin: 0 20%;
+	opacity: 0.5;
+
+	
+
+}
+.third{
+	margin-left: 10px;
+
+}
+.about{
+	float: left;
+	width: 35%;
+	text-align: justify;
+	margin-left:60px;
+}
+.about2{
+	float: left;
+	width: 35%;
+	text-align: justify;
+	margin-left: 65px;
+}
+.fourth{
+	margin-right: 25px;
+}
+.img1{
+	width: 25%;
+	height: 15%;
+	float: left;
+
+}
+.img1 img{
+	width: 70%;
+	height: 30%;
+}
+.img1 h3{
+	margin-left: 30%;
+}
+.img1 p{
+	text-align: justify;
+	margin-left: 25%;
+
+
+}
+
+
+
+.img2{
+	width: 25%;
+	height: 15%;
+	float: left;
+
+}
+.img2 img{
+	width: 70%;
+	height: 30%;
+}
+.img2 h3{
+	margin-left: 30%;
+}
+.img2 p{
+	text-align: justify;
+	margin-left: 25%;
+
+}
+.img3{
+	width: 25%;
+	height: 15%;
+	float: left;
+
+}
+.img3 img{
+	width: 70%;
+	height: 30%;
+}
+.img3 h3{
+	margin-left: 30%;
+}
+.img3 p{
+	text-align: justify;
+	margin-left: 25%;
+
+}
+.img4{
+	width: 25%;
+	height: 15%;
+	float: left;
+
+}
+.img4 img{
+	width: 70%;
+	height: 30%;
+}
+.img4 h3{
+	margin-left: 30%;
+}
+.img4 p{
+	text-align: justify;
+	margin-left: 25%;
+
+}
+.contact{
+	float: left;
+}
+.service{
+	float: left;
+}
