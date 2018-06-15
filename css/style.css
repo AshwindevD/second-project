@@ -2,12 +2,14 @@ body{
 	font-family: 'Roboto', sans-serif;
 
 }
+
 .list ul{
 	list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333333;
+    padding-right: 6%;
 
 }
 .list li {
@@ -17,8 +19,8 @@ body{
     padding: 16px;
     text-decoration: none;
     float: right;
-
 }
+
 .first{
 	overflow: hidden;
     background-color: green;
@@ -40,6 +42,7 @@ body{
 .head h1 {
 	
 	text-align: center;
+
 	
 	
 
@@ -47,18 +50,21 @@ body{
 .head p{
 	text-align: justify;
 	margin-top: 15px;
-	margin-left: 29px;
+	margin-left: 16px;
 
 
 }
 img{
-	width: 20%;
+	width: 23%;
 	height: 15%;
-	float: left;
-	margin-left: 98px;
+	float: right;
+	margin-right:7%;
 	margin-top: 20px;
 	padding-bottom:10px;
 
+}
+.image img{
+	/*margin-left:5%;*/
 }
 .second{
 	background-color: grey;
@@ -66,33 +72,46 @@ img{
 
 
 
+
+
 }
 .second p{
 	float: left;
-	margin: 0 20%;
+	margin: 10px 20%;
 	opacity: 0.5;
-
+	text-align: center;
 	
-
 }
+.second button{
+	 background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    /*text-align: center;*/
+    text-decoration: none;
+    font-size: 16px;
+    margin: 2px 2px;
+    cursor: pointer;
+    margin-left: 17%; 
+} 
 .third{
 	margin-left: 50px;
-
 }
 .about{
 	float: left;
 	width: 35%;
 	text-align: justify;
-	margin-left:60px;
+	margin-left:40px;
+	margin-right:55px;
 }
 .about2{
 	float: left;
 	width: 35%;
 	text-align: justify;
-	margin-left: 65px;
+	margin-left: 10%;
 }
 .fourth{
-	margin-right: 25px;
+	margin-right: 5%;
 }
 .img1{
 	width: 25%;
@@ -105,16 +124,15 @@ img{
 	height: 30%;
 }
 .img1 h3{
-	margin-left: 30%;
+	margin-left: 23%;
 }
 .img1 p{
 	text-align: justify;
-	margin-left: 25%;
+	margin-left: 23%;
+	padding-right:15px;
 
 
 }
-
-
 
 .img2{
 	width: 25%;
@@ -127,11 +145,12 @@ img{
 	height: 30%;
 }
 .img2 h3{
-	margin-left: 30%;
+	margin-left: 23%;
 }
 .img2 p{
 	text-align: justify;
-	margin-left: 25%;
+   	margin-left: 23%;
+   	padding-right:15px;
 
 }
 .img3{
@@ -145,11 +164,12 @@ img{
 	height: 30%;
 }
 .img3 h3{
-	margin-left: 30%;
+	margin-left: 23%;
 }
 .img3 p{
 	text-align: justify;
-	margin-left: 25%;
+	margin-left: 23%;
+	padding-right:15px;
 
 }
 .img4{
@@ -163,11 +183,12 @@ img{
 	height: 30%;
 }
 .img4 h3{
-	margin-left: 30%;
+	margin-left: 23%;
 }
 .img4 p{
 	text-align: justify;
-	margin-left: 25%;
+	margin-left: 23%;
+	padding-right:15px;
 
 }
 footer{
@@ -183,27 +204,70 @@ footer{
 
 
 }
+.contact h2{
+	margin-left: 21%;
+
+}
+.contact address{
+	margin-left: 21%;
+}
+
 .service{
 	float: left;
 	width: 25%;
+}
+.service h2{
+	margin-left: 18%;
+
+}
+.service p{
+	margin-left: 18%;
 }
 .info{
 	float: left;
 	width: 25%;
 	}
+
+.info h2{
+	margin-left: 13%;
+
+}
+.info p{
+	margin-left: 13%;
+	padding-right:14%;
+	text-align: justify;
+}
+
 .info2{
 	float: left;
 	width: 25%;
+}
+.info2 h2{
+	margin-left: 8%;
+	margin-right: 10%; 
+
+}
+.info2 p{
+	margin-left: 9%;
+	margin-right: 10%;
+	padding-right:13%;
+	text-align: justify;
 }
 .foot1{
 	overflow: hidden;
 }
 .horrizontal{
 	float: left;
-	width: 100%;
+	width: 87%;
 /*	display: block;*/
     border-bottom:1px solid white;
     padding: 15px;
+    padding-bottom: 10px;
+    margin-left: 5%;
+   
+
+    
+
 /*    margin-top: 20px;*/
 }
 
@@ -211,15 +275,19 @@ footer{
 
 .foot2{
 	display: block;
+	padding: 10px;
+	margin-top: 2%;
 }
 .left{
 	float: left;
 	color: grey;
+	margin-left:5%; 
 
 
 }
 .right{
 	float: right;
 	color: green;
+	margin-right:5%
 	
 }
